@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simulador - Segunda entrega Proyecto Final</title>
+</head>
+<body>
+    
+    <h1>Logistica y Seleccion de stock</h1>
+    
+    
+    <div id="botonesVisualizacion">
+
+        <h2>Elija categoria y almacene el Producto</h2>
+        <p>Celulares y Tecnologia (1) , Climatización (2) , Muebles (3) </p>
+        <p><input id='idCategoria' type = 'text' name='idCategoria' placeholder='Categoría:'></p>
+        <p><input type="text" id="idProducto" name="idProducto" placeholder="Id Producto:"></p>
+        <p><input type="text" id="nombreProducto" name="nombreProducto" placeholder="Nombre:"></p>    
+        <p><input type="text" id="marcaProducto" name="marcaProdcuto" placeholder="Marca:""></p>
+        <p><input type="text" id="precioProducto" name="precioProducto" placeholder="Precio:""></p>
+        <button id="prueba"> Almacenar </button>
+       
+    </div>
+    <p></p>
+
+    <div id="botonesValorTotal">
+        
+        <h2>Mostrar total del valor de los productos</h2>
+        <p>Celulares y Tecnologia (1) , Climatización (2) , Muebles (3) </p>
+        <p><input id='categoriaTotal' type = 'text' name='categoriaTotal' placeholder='Ingrese Categoría'></p>
+        <button id="calculoValor"> Calcular</button>
+        <p></p>
+
+    </div>
+
+    <div id="botonesOrdenamiento">
+        
+        <h2>Ordenar productos del stock alfabeticamente por Categoria</h2>
+        <p>Celulares y Tecnologia (1) , Climatización (2) , Muebles (3) </p>
+        <p><input id='categoriaOrdenamiento' type = 'text' name='categoriaOrdenamiento' placeholder='Categoría a ordenar'></p>
+        <button id="calculoOrdenar"> Ordenar</button>
+        <p></p>
+
+    </div>
+
+    <div id="botonesMostrarProductos">
+
+        <h2>Mostrar productos por almacén</h2>
+        <p>Celulares y Tecnologia (1) , Climatización (2) , Muebles (3) </p>
+        <p><input id='categoriaAlmacen' type = 'text' name='categoriaAlmacen' placeholder='Ingrese categoria'></p>
+        <button id="mostrarPorAlmacen">Mostrar</button>
+        <p></p>  
+
+    </div>
+     
+    <script src="app.js"></script>  
+</body>
+</html>

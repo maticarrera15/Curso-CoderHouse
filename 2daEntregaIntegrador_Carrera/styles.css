@@ -1,0 +1,72 @@
+body {
+    color:red;
+}
+
+h1{
+    color:brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    
+}
+
+h3{
+    color:coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    color:darkblue
+}
+
+#botonesVisualizacion{
+    /* background-color: brown; */
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 12px 10px 13px 12px;
+    margin: 2px 3px 3px 3px;
+    width: max-content;   
+}
+
+#botonesValorTotal{
+    /* background-color: brown; */
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 12px 10px 13px 12px;
+    margin: 2px 3px 3px 3px;
+    width: max-content;   
+}
+
+#botonesOrdenamiento{
+    /* background-color: brown; */
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 12px 10px 13px 12px;
+    margin: 2px 3px 3px 3px;
+    width: max-content;   
+}
+
+#botonesMostrarProductos{
+    /* background-color: brown; */
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 12px 10px 13px 12px;
+    margin: 2px 3px 3px 3px;
+    width: max-content;   
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #2f8832;
+}
+/*  */
